@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GCM Arena ブックマークレット インストール</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 1.6;
+      color: #333;
+    }
+    h1 {
+      color: #2563eb;
+      border-bottom: 2px solid #2563eb;
+      padding-bottom: 10px;
+    }
+    h2 {
+      color: #1e40af;
+      margin-top: 30px;
+    }
+    .bookmarklet-link {
+      display: inline-block;
+      background: #2563eb;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      margin: 20px 0;
+      cursor: move;
+    }
+    .bookmarklet-link:hover {
+      background: #1e40af;
+    }
+    .warning {
+      background: #fef3c7;
+      border-left: 4px solid #f59e0b;
+      padding: 15px;
+      margin: 20px 0;
+    }
+    .info {
+      background: #dbeafe;
+      border-left: 4px solid #2563eb;
+      padding: 15px;
+      margin: 20px 0;
+    }
+    .step {
+      background: #f3f4f6;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    code {
+      background: #e5e7eb;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+    }
+    ol {
+      padding-left: 20px;
+    }
+    li {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎮 GCM Arena ブックマークレット</h1>
+
+  <div class="warning">
+    <strong>⚠️ 重要な注意事項</strong>
+    <ul>
+      <li>このブックマークレットは非公式ツールです</li>
+      <li>公式ゲームサイトの構造変更により動作しなくなる可能性があります</li>
+      <li>問題が発生した場合、即座に使用を中止してください</li>
+      <li>使用は自己責任でお願いします</li>
+    </ul>
+  </div>
+
+  <h2>📥 インストール方法</h2>
+
+  <div class="info">
+    <p>以下のリンクをブックマークバーにドラッグ&ドロップしてください：</p>
+    <a href="javascript:(function(){var s=document.createElement('script');s.src='https://your-domain.vercel.app/bookmarklet/gcm-arena-bookmarklet.js';document.body.appendChild(s);})();" class="bookmarklet-link">
+      📊 GCM Arena スコア提出
+    </a>
+  </div>
+
+  <div class="step">
+    <h3>ステップ1: ブックマークバーを表示</h3>
+    <ul>
+      <li><strong>Chrome/Edge:</strong> Ctrl+Shift+B (Windows) / Cmd+Shift+B (Mac)</li>
+      <li><strong>Firefox:</strong> Ctrl+Shift+B (Windows) / Cmd+Shift+B (Mac)</li>
+      <li><strong>Safari:</strong> Cmd+Shift+B (Mac)</li>
+    </ul>
+  </div>
+
+  <div class="step">
+    <h3>ステップ2: ブックマークレットを追加</h3>
+    <p>上の青いボタン「📊 GCM Arena スコア提出」をブックマークバーにドラッグ&ドロップします。</p>
+  </div>
+
+  <h2>🎯 使用方法</h2>
+
+  <ol>
+    <li>公式ゲームサイト（ONGEKI、CHUNITHM、maimai）のスコア詳細ページを開く</li>
+    <li>ブックマークバーの「GCM Arena スコア提出」をクリック</li>
+    <li>大会IDを入力するプロンプトが表示されます</li>
+    <li>参加している大会のIDを入力して送信</li>
+    <li>スコアが自動的に抽出され、GCM Arenaに送信されます</li>
+  </ol>
+
+  <h2>🔍 対応ゲーム</h2>
+
+  <ul>
+    <li>✅ オンゲキ (ONGEKI)</li>
+    <li>✅ CHUNITHM</li>
+    <li>✅ maimai</li>
+  </ul>
+
+  <h2>❓ トラブルシューティング</h2>
+
+  <div class="step">
+    <h3>「スコア情報が見つかりません」と表示される</h3>
+    <p>公式サイトのページ構造が変更された可能性があります。管理者に報告してください。</p>
+  </div>
+
+  <div class="step">
+    <h3>「認証が必要です」と表示される</h3>
+    <p>GCM Arenaにログインしていることを確認してください。別のタブでログインしてから再度お試しください。</p>
+  </div>
+
+  <div class="step">
+    <h3>「この楽曲は大会の対象ではありません」と表示される</h3>
+    <p>プレイした楽曲が参加している大会の対象楽曲に含まれていない可能性があります。大会の対象楽曲を確認してください。</p>
+  </div>
+
+  <h2>🛡️ セキュリティとプライバシー</h2>
+
+  <ul>
+    <li>ブックマークレットはスコア情報のみを送信します</li>
+    <li>個人情報や認証情報は送信されません</li>
+    <li>通信は既存のログインセッションを使用します</li>
+    <li>送信されるデータ: スコア、楽曲名、難易度、ゲーム種別</li>
+  </ul>
+
+  <div class="warning">
+    <strong>🚫 機能停止について</strong>
+    <p>公式サイトの構造変更や問題発生時には、管理者がブックマークレット機能を即座に停止できます。その場合、使用時にエラーメッセージが表示されます。</p>
+  </div>
+
+  <h2>📞 サポート</h2>
+
+  <p>問題が発生した場合や質問がある場合は、GCM Arenaのサポートページからお問い合わせください。</p>
+
+  <hr style="margin: 40px 0;">
+
+  <p style="text-align: center; color: #6b7280; font-size: 14px;">
+    GCM Arena は SEGA とは一切関係のない非公式サービスです<br>
+    © 2024 GCM Arena. All rights reserved.
+  </p>
+</body>
+</html>
