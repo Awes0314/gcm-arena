@@ -15,7 +15,6 @@ const ScoreSubmitForm = dynamic(
         <Skeleton className="h-12 w-full" />
       </div>
     ),
-    ssr: false,
   }
 )
 
