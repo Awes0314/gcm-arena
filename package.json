@@ -9,7 +9,7 @@
     "lint": "next lint",
     "test": "vitest",
     "test:unit": "vitest run",
-    "test:property": "vitest run --grep 'Property'",
+    "test:property": "vitest run property",
     "test:coverage": "vitest run --coverage",
     "import-songs": "tsx scripts/import-songs.ts"
   },
